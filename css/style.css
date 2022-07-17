@@ -2788,7 +2788,7 @@ h6 { font-size: 16px; }
 	.eliasdev_tm_news .news_list > ul > li .list_inner{flex-direction: column-reverse;align-items: baseline;}
 	.eliasdev_tm_news .shape{display: none;}
 	.eliasdev_tm_news .news_list > ul > li .right{width: 100%;margin-bottom: 30px;}
-	.eliasdev_tm_news .news_list > ul > li .right .main{filter: blur(2.5px);}
+	.eliasdev_tm_news .news_list > ul > li .right .main{filter: blur(0px);}
 	.eliasdev_tm_news .news_list > ul > li .left{width: 100%;padding-right: 0px;}
 	.eliasdev_tm_news .news_list > ul > li .list_inner{padding: 20px;}
 	.eliasdev_tm_modalbox .box_inner{width: 300px;}
