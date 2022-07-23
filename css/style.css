@@ -1,30 +1,11 @@
 @charset "utf-8";
 
-/*	Copyright (c) 2022 Dev.Elias
+/*	Copyright (c) 2022 Dev.Elias 
 
-
-
-01)	eliasdev BASE
-02) eliasdev MOBILE MENU
-03) eliasdev HEADER
-04) eliasdev HERO
-05) eliasdev ABOUT
-06) eliasdev INFORMATIONS
-07) eliasdev COUNTER
-08) eliasdev SERVICE
-09) eliasdev PORTFOLIO
-10) eliasdev TESTIMONIALS
-11) eliasdev NEWS
-12) eliasdev PARTNERS
-13) eliasdev CONTACT
-14) eliasdev COPYRIGHT
-15) eliasdev MAGIC CURSOR
-16) eliasdev TOTOP
-17) eliasdev MEDIA QUERIES (FOR SMALL DEVIVES)
-
+        PRODUZIDO NO BRASIL 😁😁😁😁😁
 
 /*---------------------------------------------------*/
-/*	01) eliasdev BASE
+/*	01) DEVELIAS BASE
 /*---------------------------------------------------*/
 
 a{
@@ -268,7 +249,7 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	02) eliasdev MOBILE MENU
+/*	02) DEVELIAS MOBILE MENU
 /*---------------------------------------------------*/
 
 .eliasdev_tm_mobile_menu{
@@ -359,7 +340,7 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	03) eliasdev HEADER
+/*	03) DEVELIAS HEADER
 /*---------------------------------------------------*/
 
 .eliasdev_tm_header{
@@ -999,7 +980,7 @@ h6 { font-size: 16px; }
 
 
 /*---------------------------------------------------*/
-/*	06) eliasdev INFORMATIONS
+/*	06) DEVELIASDEVELIAS INFORMATIONS
 /*---------------------------------------------------*/
 
 .eliasdev_tm_informations{
@@ -1260,7 +1241,7 @@ h6 { font-size: 16px; }
 }
  
 /*---------------------------------------------------*/
-/*	07) eliasdev COUNTER
+/*	07) DEVELIAS COUNTER
 /*---------------------------------------------------*/
 
 .eliasdev_tm_counter{
@@ -1321,7 +1302,7 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	08) eliasdev SERVICE
+/*	08) DEVELIAS SERVICE
 /*---------------------------------------------------*/
 
 .eliasdev_tm_full_link{
@@ -1657,7 +1638,7 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	09) eliasdev PORTFOLIO
+/*	09) DEVELIASDEVELIASDEVELIASDEVELIASDEVELIASDEVELIAS PORTFOLIO
 /*---------------------------------------------------*/
 
 .eliasdev_tm_portfolio{
@@ -1949,7 +1930,7 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	10) eliasdev TESTIMONIALS
+/*	10) DEVELIASDEVELIASDEVELIASDEVELIASDEVELIAS TESTIMONIALS
 /*---------------------------------------------------*/
 
 .eliasdev_tm_testimonials{
@@ -2263,7 +2244,7 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	12) eliasdev PARTNERS
+/*	12) DEVELIASDEVELIASDEVELIASDEVELIAS PARTNERS
 /*---------------------------------------------------*/
 
 .eliasdev_tm_partners{
@@ -2302,7 +2283,7 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	13) eliasdev CONTACT
+/*	13) DEVELIASDEVELIASDEVELIAS CONTACT
 /*---------------------------------------------------*/
 
 .eliasdev_tm_contact{
@@ -2443,7 +2424,7 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	14) eliasdev COPYRIGHT
+/*	14) DEVELIAS COPYRIGHT
 /*---------------------------------------------------*/
 
 .eliasdev_tm_copyright{
@@ -2476,7 +2457,7 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	15) eliasdev MAGIC CURSOR
+/*	15) DEVELIASDEVELIAS MAGIC CURSOR
 /*---------------------------------------------------*/
 
 .mouse-cursor{
@@ -2573,7 +2554,7 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	17)  MEDIA QUERIES (FOR SMALL DEVIVES)
+/*	DEVELIASDEVELIAS  DEVELIAS MEDIA QUERIES (FOR SMALL DEVIVES)
 /*---------------------------------------------------*/
 
 @media (max-width: 1600px) {
