@@ -2799,6 +2799,7 @@ h6 { font-size: 16px; }
 	.eliasdev_tm_contact .element2{display: none;}
 }
 @media (max-width: 768px) {
+	.mouse-cursor{display: none;}
 	.eliasdev_tm_informations .skillbox ul li{width: 50%;}
 	.eliasdev_tm_informations .timelinebox ul{margin-left: 0px;}
 	.eliasdev_tm_informations .timelinebox ul li{width: 100%;padding-left: 0px;font-size: 14px;}
