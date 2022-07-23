@@ -1,8 +1,5 @@
-/*
- * Copyright (c) 2022 Marketify
- * Author: Marketify
- * This file is made for CURRENT TEMPLATE
-*/
+/*	Copyright (c) 2022 Dev.Elias 
+        PRODUZIDO NO BRASIL 😁😁😁😁😁 */
 
 jQuery(document).ready(function(){
 
@@ -764,5 +761,6 @@ function eliasdev_tm_about_tabs(){
 		return false;
 	});
 }
-
+/*	Copyright (c) 2022 Dev.Elias 
+        PRODUZIDO NO BRASIL 😁😁😁😁😁 */
 //===========
