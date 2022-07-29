@@ -2639,10 +2639,10 @@ h6 { font-size: 16px; }
 	@keyframes MoveUpDown1660x {
 		0%,
 		100% {
-		  top: 13vh;
+		  top: 7vh;
 		}
 		50% {
-		  top: 20vh;
+		  top: 12vh;
 		}
 	}
 
@@ -2653,10 +2653,10 @@ h6 { font-size: 16px; }
 		@keyframes MoveUpDown1500x {
 			0%,
 			100% {
-			  top: 8vh;
+			  top: 7vh;
 			}
 			50% {
-			  top: 14vh;
+			  top: 12vh;
 			}
 		}
 		}
@@ -2666,10 +2666,10 @@ h6 { font-size: 16px; }
 	@keyframes MoveUpDown1336x {
 		0%,
 		100% {
-		  top: 14vh;
+		  top: 7vh;
 		}
 		50% {
-		  top: 20vh;
+		  top: 12vh;
 		}
 	}
 	}
@@ -2679,10 +2679,10 @@ h6 { font-size: 16px; }
 	@keyframes MoveUpDown1250x {
 		0%,
 		100% {
-		  top: 8vh;
+		  top: 7vh;
 		}
 		50% {
-		  top: 14vh;
+		  top: 12vh;
 		}
 	}
 	}
@@ -2706,10 +2706,10 @@ h6 { font-size: 16px; }
 	@keyframes MoveUpDown1200x {
 		0%,
 		100% {
-		  top: -5vh;
+		  top: 7vh;
 		}
 		50% {
-		  top: 1vh;
+		  top: 12vh;
 		}
 	}
 
@@ -2718,7 +2718,6 @@ h6 { font-size: 16px; }
 }
 @media (max-width: 1040px) {
 	body{font-size: 14px;}
-
 	.mouse-cursor{display: none;}
     .eliasdev_tm_hero {width: 105%;min-height: 84vh}
 	.eliasdev_tm_hero .content {min-height: 75vh; }
