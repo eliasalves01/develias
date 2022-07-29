@@ -2653,10 +2653,10 @@ h6 { font-size: 16px; }
 		@keyframes MoveUpDown1500x {
 			0%,
 			100% {
-			  top: -5vh;
+			  top: 8vh;
 			}
 			50% {
-			  top: 0vh;
+			  top: 14vh;
 			}
 		}
 		}
@@ -2666,7 +2666,7 @@ h6 { font-size: 16px; }
 	@keyframes MoveUpDown1336x {
 		0%,
 		100% {
-		  top: 30vh;
+		  top: 14vh;
 		}
 		50% {
 		  top: 20vh;
@@ -2679,10 +2679,10 @@ h6 { font-size: 16px; }
 	@keyframes MoveUpDown1250x {
 		0%,
 		100% {
-		  top: -5vh;
+		  top: 8vh;
 		}
 		50% {
-		  top: 2vh;
+		  top: 14vh;
 		}
 	}
 	}
