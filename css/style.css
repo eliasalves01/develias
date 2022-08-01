@@ -855,13 +855,13 @@ h6 { font-size: 16px; }
 .eliasdev_tm_about .eliasdev_tm_main_title{
 	margin-bottom: 30px;
 }
-.eliasdev_tm_about .eliasdev_tm_main_title h3{
+.eliasdev_tm_about .eliasdev_tm_main_title h2{
 	color: #fff;
 }
-.eliasdev_tm_about .eliasdev_tm_main_title h3 span:before{
+.eliasdev_tm_about .eliasdev_tm_main_title h2 span:before{
 	background-color: #fff;
 }
-.eliasdev_tm_main_title h3{
+.eliasdev_tm_main_title h2{
 	letter-spacing: -2px;
 	font-size: 56px;
 	font-weight: 700;
