@@ -772,7 +772,7 @@ function eliasdev_tm_about_tabs(){
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Hello World! ", "Seja-Bem vindo", "Descubra o Novo"];
+const textArray = ["Hello World! ", "Seja-Bem vindo.", "Descubra o novo."];
 const typingDelay = 250;
 const erasingDelay = 100;
 const newTextDelay = 3000; // Delay between current and next text
