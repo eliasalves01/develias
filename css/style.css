@@ -472,7 +472,32 @@ h6 { font-size: 16px; }
 	font-weight: 500;
 	letter-spacing: -4px;
 	margin-bottom: 11px;
+	white-space: nowrap;
+
+
 }
+
+.eliasdev_tm_hero .short h3 span.typed-text {
+	font-size: 70px;
+	font-weight: 500;
+	color: #F6F6F6;
+	white-space: nowrap;
+
+	
+  }
+
+  .eliasdev_tm_hero h3 span.cursor {
+	display: inline-block;
+	background-color: #ccc;
+	margin-left: 0.1rem;
+	width: 3px;
+	animation: blink 1s infinite;
+  }
+
+.bar{
+  animation: blink 1s infinite;
+}
+
 .eliasdev_tm_hero .short h3 .svg{
 	width: 55px;
 	height: 55px;
@@ -480,6 +505,15 @@ h6 { font-size: 16px; }
 	left: -7px;
 	animation: teste 1000ms infinite linear;
 }
+
+
+
+
+  
+  @keyframes blink{
+	to{opacity: .0;}
+  }
+  
 
 @keyframes teste {
 
