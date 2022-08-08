@@ -2753,6 +2753,8 @@ h6 { font-size: 16px; }
 @media (max-width: 1040px) {
 	body{font-size: 14px;}
 	.mouse-cursor{display: none;}
+         .eliasdev_tm_hero .short h3{font-size: 55px;font-weight: 500}
+	 .eliasdev_tm_hero .short h3 span.typed-text {font-size: 55px;	}
     .eliasdev_tm_hero {width: 105%;min-height: 84vh}
 	.eliasdev_tm_hero .content {min-height: 75vh; }
 	.eliasdev_tm_hero .buttons {margin-left: -14px;}
@@ -2834,7 +2836,7 @@ h6 { font-size: 16px; }
 @media (max-width: 768px) {
        .mouse-cursor{display: none;opacity: 0;visibility: hidden;position: absolute;z-index: -1111
         .eliasdev_tm_hero .short h3{font-size: 50px;font-weight: 500}
-	 .eliasdev_tm_hero .short h3 span.typed-text {font-size: 50px;	}
+	 .eliasdev_tm_hero .short h3 span.typed-text {font-size: 50px;}
 	.eliasdev_tm_informations .skillbox ul li{width: 50%;}
 	.eliasdev_tm_informations .timelinebox ul{margin-left: 0px;}
 	.eliasdev_tm_informations .timelinebox ul li{width: 100%;padding-left: 0px;font-size: 14px;}
