@@ -1,0 +1,741 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Mukta&family=Niconne&family=Pinyon+Script&family=Pirata+One&family=Poppins:wght@100;200;300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Pirata One;
+    /* user-select: none; */
+    margin: auto;
+}
+
+/**Header Página**/
+
+.banner {
+    background-image: url(imagens/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    margin-bottom: 35px;
+    background-position-x: 65%;
+    overflow: hidden;
+}
+.backgroundNav {
+    width: 100%;
+    position: absolute;
+    z-index: -000000;
+    /* opacity: 85%; */
+    filter: brightness(75%);
+}
+div.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 1% 5% 0 5%;
+    margin-bottom: 200px;
+}
+.logo {
+    transition: all 500ms ease;
+    cursor: pointer;
+    padding-left: 2%;
+}
+.logo img {
+    width: 185px;
+}
+.logo:hover {
+    transform: scale(105%);
+    transition: all 500ms ease;
+}
+.mobile-menu{
+    display: none;
+}
+nav.menu {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+nav.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    padding: 35px;
+    line-height: 27px;
+}
+nav.menu a:hover {
+    color: #991b1f;
+    transition: 200ms ease;
+}
+.boxTitulo {
+    display: flex;
+    justify-content: center;
+}
+.titulo {
+    color: rgb(255, 255, 255);
+}
+.titulo p {
+    font-family: 'Mukta';
+    font-weight: 400;
+    font-size: 1.6vh;
+    padding-left: 5px;
+    letter-spacing: 5px;
+    margin: 0;
+}
+.titulo h1 {
+    font-size: 85px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.cta {
+    font-family: 'Poppins';
+    color: rgb(255, 255, 255);
+    background: #991b1f;
+    border: 1px solid #991b1f;
+    font-size: 1.7vh;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 188.16px;
+    height: 52.25px;
+    left: 0px;
+    top: 160px;
+    cursor: pointer;
+    transition: 200ms ease;
+}
+.cta:hover {
+    background: #a92f33;
+    transform: scale(103%);
+    transition: 200ms ease;
+}
+
+/**================**/
+/**================**/
+
+/**Main Section**/
+.center {
+    display: flex;
+    flex-direction: row;
+}
+
+.containerMain {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 750px;
+}
+.containerMain {
+    font-size: 25px;
+}
+
+.lines {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.line {
+    background-color: #991b1f;
+    width: 55px;
+    height: 2px;
+}
+.lineText {
+    font-family: poppins;
+    font-weight: 500;
+    letter-spacing: 4px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.titleSobre {
+    color: #991b1f;
+    font-size: 6vh;
+    margin: 15px 0 40px;
+}
+.containerTexto {
+    width: 500px;
+}
+.texto {
+    font-family: 'Poppins';
+    font-size: 15px;
+    max-width: 435px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+}
+.containerimageSobre {
+    display: flex;
+    align-items: center;
+    max-width: 550px;
+}
+.imageSobre img {
+    width: 90%;
+    border-radius: 20px;
+    filter: brightness(.8);
+}
+/**================**/
+/*CATALAGO*/
+
+.containerCatalago {
+    width: 100%;
+    height: 100%;
+    background: #f8f4f3;
+    color: #991b1f;
+}
+.titleCatalago {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 400x;
+    line-height: 72px;
+}
+.menuCatalago {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.catalago1 {
+    font-size: 24px;
+}
+.catalago1 p {
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+.catalago2 {
+    font-size: 24px;
+}
+.catalago2 p {
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+.catalagoLegenda {
+    font-family: Mukta;
+    font-size: 15px;
+    line-height: 26.25px;
+    color: black;
+}
+/*==============*/
+
+/*contatos*/
+
+.containerContatoBanner {
+    background-image: url(imagens/backgroundNewsletter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 478px;
+    z-index: -0000;
+    display: flex;
+    justify-content: center;
+    background-position-x: 65%;
+}
+.contatos {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.boxTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+}
+.titleNews {
+    /* height: 50%;
+    width: 65%; */
+    font-size: 60px;
+    color: white;
+}
+.containerContato {
+    padding-top: 40px;
+}
+.boxContato {
+    width: 445px;
+    height: 507.5px;
+    background: #f8f4f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    /* position: absolute;
+    top: 42px;
+    right: 15%; */
+}
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+.boxInfo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+}
+.boxInfo h2 {
+    color: #991b1f;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.boxInfo p {
+    font-family: 'Mukta';
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000000b5;
+    line-height: 50px;
+}
+.boxDataHorario {
+    line-height: 35px;
+    display: flex;
+    text-align: center;
+}
+.dataeHorario {
+    margin: 30px;
+}
+.dataeHorario h3 {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000d6;
+    line-height: 50px;
+}
+.dataeHorario p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 26px;
+    color: #991b1f;
+    line-height: 40px;
+}
+
+.telefone {
+    border: 2px dashed #991b1fac;
+    width: 190px;
+    height: 52.25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease;
+    user-select: none;
+}
+.telefone a {
+    text-decoration: none;
+    font-size: 23px;
+    color: #121212;
+    letter-spacing: 3px;
+    transition: 0.2s ease;
+}
+
+.telefone:active {
+    transition: 0.12s ease;
+    background-color: #991b1f;
+    box-shadow: inset 2px 2px 7px 2px #5c0a0d;
+}
+.telefone:active a {
+    transition: 0.12s ease;
+    color: white;
+}
+/**====================*/
+
+/*download*/
+.containerDownloaod {
+    width: 100%;
+    height: 260px;
+}
+
+.downloadEbook {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15%;
+    letter-spacing: 1px;
+    height: 30%;
+    position: absolute;
+}
+.downloadEbook button {
+    margin-top: 20px;
+}
+
+/*=========newsletter=============**/
+.containerNewsletter {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    position: relative;
+    margin-bottom: 70px;
+}
+.newsletterBackground {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-image: url(imagens/background1.png);
+    filter: brightness(70%);
+    background-position-y: 65%;
+}
+.newsletter {
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxNewsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.boxNewsletter h1 {
+    font-size: 70px;
+    color: white;
+    letter-spacing: 4px;
+}
+.boxNewsletter .entradaDados {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.boxNewsletter .entradaDados input {
+    font-size: 18px;
+    width: 300px;
+    background: none;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid white;
+    color: rgb(255, 255, 255);
+    font-family: 'Mukta';
+    font-weight: 400;
+}
+.boxNewsletter .entradaDados input::placeholder {
+    color: white;
+    font-family: Pirata One;
+    font-size: 20px;
+}
+.newsletterSubmit {
+    width: 100%;
+}
+.boxSubmitNews {
+    display: flex;
+    justify-content: center;
+}
+.boxSubmitNews input {
+    font-family: Pirata One;
+    font-size: 26px;
+    background: none;
+    color: white;
+    border: 1px solid #fff;
+    width: 255px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+/*========Footer===========*/
+.containerFooter {
+    width: 100%;
+    height: 200px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    align-items: center;
+}
+.logoFooter {
+    width: 270px;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logoFooter img {
+    width: 175px;
+}
+
+.footerMenu {
+    display: flex;
+    width: 65%;
+    justify-content: space-evenly;
+    height: 170px;
+}
+.footerMenu {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.footerSubMenu {
+    display: flex;
+    gap: 80px;
+    flex-direction: row;
+    justify-content: center;
+}
+span.linesFooterMobile {
+    display: none !important;
+}
+.footerSubMenu .tittleFooter {
+    color: #991b1f;
+    font-size: 22px;
+    text-decoration: none;
+}
+.categoriasMenu {
+    max-width: 225px;
+}
+.categoriasMenu p {
+    font-size: 18px;
+    color: white;
+    font-family: Mukta;
+}
+.categoriasMenu a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 900px) {
+    div.navbar {
+        flex-direction: column;
+        gap: 25px;
+    }
+    nav.menu {
+        display: none;
+    }
+    .mobile-menu {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        justify-content: space-evenly;
+        width: 100%;
+        font-size: 15px;
+    }
+    .mobile-menu a {
+        font-size: 25px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .boxTitulo {
+        display: flex;
+        justify-content: center;
+    }
+    .titulo {
+        color: rgb(255, 255, 255);
+    }
+    .titulo p {
+        font-family: 'Mukta';
+        font-weight: 400;
+        font-size: 1.4vh;
+        padding-left: 5px;
+        letter-spacing: 5px;
+        margin: 0;
+    }
+    .titulo h1 {
+        font-size: 4.8vh;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+    /*====*/
+
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .containerMain {
+        display: flex;
+        flex-direction: column;
+    }
+    .containerMain {
+        font-size: 25px;
+        width: 95%;
+        height: 100%;
+    }
+
+    .lines {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .line {
+        background-color: #991b1f;
+        width: 55px;
+        height: 4px;
+    }
+    .lineText {
+        font-family: 'Mukta';
+        font-weight: 500;
+        letter-spacing: 4px;
+        padding-left: 20px;
+        font-size: 1.6vh;
+    }
+    .containerTexto {
+        width: 100%;
+    }
+    .containerText {
+        width: 100%;
+    }
+    .titleSobre {
+        color: #991b1f;
+        font-size: 6vh;
+        margin-bottom: 50px;
+    }
+    .texto {
+        font-family: 'Mukta';
+        font-size: 1.8vh;
+        width: 100%;
+        max-width: 95%;
+        line-height: 20px;
+    }
+    .imageSobre {
+        margin-top: 20px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .imageSobre img {
+        width: 100%;
+    }
+    /**/
+    .menuCatalago {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .titleCatalago {
+        font-size: 45px;
+        margin-bottom: 35px;
+    }
+    .catalagoProduct {
+        font-size: 25px !important;
+        letter-spacing: 2px !important;
+    }
+    .catalago1 p {
+        font-size: 17px;
+        line-height: 50px;
+    }
+    .catalago2 p {
+        font-size: 17px;
+        line-height: 50px;
+    }
+    /** ========contatos======== **/
+
+    .containerContatoBanner {
+        width: 100%;
+        height: 744px;
+        background-position-x: 70%;
+    }
+    .contatos {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .boxTitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+    }
+    .titleNews {
+        font-size: 40px;
+        color: white;
+    }
+    .containerContato {
+        width: 100%;
+        padding-top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .boxContato {
+        width: 42vh;
+        height: 507.5px;
+        background: #f8f4f3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5;
+    }
+    .boxInfo {
+        max-width: 300px;
+        font-size: 20px;
+    }
+    .boxDataHorario {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+    }
+    /*download*/
+
+    .downloadEbook {
+        display: flex;
+        margin: 0px 15px 0px 15px;
+        font-size: 19px;
+        line-height: 45px;
+        letter-spacing: 2px;
+        color: #121212;
+    }
+    .downloadEbook button {
+        margin-top: 20px;
+    }
+
+    /*Newsletter*/
+    .containerNewsletter {
+        height: 500px;
+    }
+    .newsletterBackground {
+        height: 100%;
+        background-position-x: 80%;
+    }
+    .boxNewsletter {
+        height: 100%;
+    }
+    .boxNewsletter .entradaDados {
+        flex-direction: column;
+        align-items: center;
+        gap: 90px;
+    }
+    /*Footer*/
+    .footer {
+        flex-direction: column;
+    }
+    .footerMenu {
+        align-items: center;
+    }
+    .containerFooter {
+        height: 500px;
+    }
+    .logoFooter {
+        padding-left: 5px;
+    }
+    .logoFooter img {
+        width: 200px;
+    }
+    .footerSubMenu {
+        gap: 15px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .categoriasMenu {
+        width: 100% !important;
+        max-width: 75%;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    span.linesFooterDesktop {
+        display: none !important;
+    }
+    span.linesFooterMobile {
+    display: block !important;
+}
