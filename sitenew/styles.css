@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: b;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.background {
+    z-index: -11;
+    width: 100%;
+    height: 1890px;
+    position: absolute;
+    filter: opacity(0.5);
+}
+
+.textSelect {
+    background-color: #dbbaaf;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+    color: black;
+}
+.textSelectTwo {
+    background-color: #dbbaaf;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px 10px 35px 10px;
+    color: black;
+}
+
+.selectTextYellow {
+    background: rgba(219, 186, 175, 0.4);
+    border-radius: 5px;
+    font-weight: 500;
+}
+.textSelectSobre {
+    background: #f6ca26;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 0 5px 0 5px;
+    font-weight: 700;
+}
+
+.textSelectSobreTitle {
+    background: #f6ca26;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 0 5px 0 5px;
+    font-weight: 700;
+    width: 100px;
+}
+/* .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+} */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 1px 3px 7px 2px #0b0b0b17;
+    z-index: 75;
+    border-radius: 15px;
+    margin: 10px 0 10px 0;
+    position: relative;
+    background: white;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar .nav-links a {
+    margin-left: 100px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #c2a167;
+}
+
+.navbar .nav-links a:hover {
+    color: #fad594;
+}
+
+.hamburger {
+    display: none;
+}
+
+/*Container Banner*/
+
+.containerBanner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.containerBanner .banner img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.titleBanner {
+    bottom: 50%;
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+
+    color: white;
+
+    height: 0;
+}
+
+.titleBanner .boxtitle {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.titleBanner .boxtitle h1 {
+    max-width: 550px;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    font-weight: 700;
+}
+
+.titleBanner .boxtitle p {
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.36rem;
+    position: relative;
+    top: 15px;
+}
+
+.titleBanner .boxtitle a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    color: black;
+    background: #ffffff;
+
+    font-weight: 700;
+    font-size: 1.5rem;
+    box-shadow: 4px 4px 0px 2px #dbbaaf;
+    border-radius: 5px;
+    width: 225px;
+    height: 50px;
+    transition: 420ms ease all;
+}
+
+.titleBanner .boxtitle a:hover {
+    box-shadow: 2px 2px 0px 2px #dbbaaf;
+    transition: 200ms ease all;
+}
+
+.titleBanner .boxtitle a:active {
+    transform: scale(97%);
+    transition: 200ms ease all;
+}
+
+.titleBanner .book img {
+    width: 95%;
+}
+/* Main Mockup
+*/
+.containerMockup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.boxMockup {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+.containerMockup .boxMockup .mockupText {
+    max-width: 480px;
+}
+.containerMockup .boxMockup .mockupText h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #232222;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+.containerMockup .boxMockup .mockupText p {
+    max-width: 450px;
+    font-size: 0.92rem;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 25px;
+    color: #232222;
+}
+
+/*ContainerPromotion*/
+
+.containerPromotion {
+    display: flex;
+    color: white;
+    justify-content: center;
+    position: relative;
+    bottom: 40px;
+    height: 0;
+}
+
+.containerPromotion .boxPromotion {
+    display: flex;
+    width: 50%;
+    height: 140px;
+    padding: 5px 15px 5px 5px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+        0px 4px 40px rgba(0, 0, 0, 0.25),
+        inset 0px 0px 2px rgba(255, 255, 255, 0.25);
+    border-radius: 15px 15px 25px 25px;
+}
+.containerPromotion .boxPromotion .boxPricePromotion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    width: 32rem;
+    height: 125px;
+    background: rgba(49, 49, 49, 0.6);
+    box-shadow: inset 0px 0px 2px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 10px 10px 25px 25px;
+    align-items: center;
+}
+.containerPromotion .boxPromotion .boxPricePromotion h2 {
+    font-size: 3em;
+    color: #f4c10c;
+}
+.containerPromotion .boxPromotion .boxPricePromotion p {
+    font-size: 0.75rem;
+}
+
+.buyPromotion {
+position: absolute;
+    top: 99%;
+    left: -104%;
+    background: #3cbb41;
+    box-shadow: 2px 4px 9px 1px #00000036;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    width: 189px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+}
+.containerPromotion .boxPromotion .boxTextPromotion {
+    font-size: 0.9rem;
+    padding: 10px 8px 5px 10px;
+    max-width: 800px;
+}
+.containerPromotion .boxPromotion .boxTextPromotion p:last-child {
+    margin-top: 20px;
+    font-size: 0.75rem;
+    color: #f4c10c;
+}
+
+/*Container Avaliacoes*/
+
+.containerAvaliacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 855px;
+    background: linear-gradient(
+        90deg,
+        #dbbaaf 0%,
+        #dbbaaf 25%,
+        #dbbaaf 47.4%,
+        #dbbaaf 75%,
+        #dbbaaf 100%
+    );
+    border-radius: 15px;
+}
+
+.containerAvaliacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.containerAvaliacoes .boxAvaliacoesTitle {
+    text-align: center;
+    max-width: 600px;
+    margin-top: 110px;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 69px;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #ffffff;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.boxAvaliacoes {
+    display: flex;
+    gap: 70px;
+}
+.containerAvaliacoes .boxAvaliacoes .cardAvaliacao {
+    max-width: 305px;
+    max-height: 234px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.64);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.containerAvaliacoes .boxAvaliacoes .cardAvaliacao .cardPerfil {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 500;
+    padding: 10px 0px 10px 10px;
+
+    border-bottom: 2px solid rgba(46, 46, 46, 0.089);
+}
+.containerAvaliacoes .boxAvaliacoes .cardAvaliacao .cardPerfil .cardImagem {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(
+        45deg,
+        #f09433 0%,
+        #e6683c 25%,
+        #dc2743 50%,
+        #cc2366 75%,
+        #bc1888 100%
+    );
+    border-radius: 55px;
+}
+
+.containerAvaliacoes .boxAvaliacoes .cardAvaliacao .cardPerfil img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    left: 3px;
+    top: 3px;
+    position: relative;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.containerAvaliacoes .boxAvaliacoes .cardAvaliacao .cardAvalicaoText {
+    padding: 20px 15px 10px 10px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.85rem;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+}
+.cardStars {
+    height: 40px;
+}
+.cardStars ul {
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    height: 34px;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.ctaAvaliacao a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    color: black;
+    background: #ffffff;
+
+    font-weight: 700;
+    font-size: 1.5rem;
+    box-shadow: 4px 4px 0px 2px #000000;
+    border-radius: 5px;
+    width: 225px;
+    height: 50px;
+    transition: 420ms ease all;
+}
+
+.ctaAvaliacao a:hover {
+    box-shadow: 2px 2px 0px 2px #000000;
+    transition: 200ms ease all;
+}
+
+.ctaAvaliacao a:active {
+    transform: scale(97%);
+    transition: 200ms ease all;
+}
+
+/*Sobre*/
+
+.containerSobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1335px;
+    height: 1800px;
+}
+.boxSobre {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxSobre .boxSobreTitle {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 60px;
+    max-width: 500px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-top: 35px;
+    color: #000000;
+}
+
+.cardSobreleft {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 100%;
+    display: flex;
+    gap: 90px;
+    margin-top: 100px;
+}
+.cardSobreleft img {
+    filter: drop-shadow(4px 3px 0px #f6ca26);
+}
+.cardSobre {
+    max-width: 100%;
+    display: flex;
+    gap: 90px;
+    margin-top: 100px;
+}
+.cardSobre img {
+    filter: drop-shadow(4px 3px 0px #f6ca26);
+}
+.cardSobreText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cardSobreText p {
+    font-weight: 300;
+    font-size: 0.8rem;
+    line-height: 32px;
+    letter-spacing: 0.1em;
+}
+
+.cardSobreTextLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.cardSobreTextLeft p {
+    font-weight: 300;
+    font-size: 0.8rem;
+    line-height: 32px;
+    letter-spacing: 0.1em;
+}
+
+@media (max-width: 768px) {
+    .navbar .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+.boxpricePromotionAnimatin {
+    animation: Valuebox 2000ms infinite alternate;
+}
+
+@keyframes Valuebox {
+    0% {
+        transform: scale(104%);
+    }
+    100% {
+        transform: scale(115%);
+    }
+}
+.animate__animated.animate__fadeInDown {
+    --animate-duration: 3s;
+}
